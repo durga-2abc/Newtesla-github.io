@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complete responsive hospital website design </title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link  rel="stylesheet" href="styleab.css">
+
+</head>
+<body>
+ 
+<section class="MODEL X" id="about">
+
+    <h1 class="heading"> <span>MODEL</span> X</h1>
+
+    <div class="row">
+
+       
+        <div class="img-area" >
+            <div><video width="1300" height="320" controls>
+                <source src="0GSNWC_Model_S_Navigate_0.mp4-2000_OY92ST.mp4" type="video/mp4">
+                <source src="movie.ogg" type="video/ogg"></video>
+           <div class="img-text">
+        
+        
+
+        <div class="content">
+          <h3></h3>
+<p class="text">Range
+    Go Anywhere
+    Model Y is fully electric, so you never need to visit a gas station again. If you charge overnight at home, you can wake up to a full battery every morning. And when you’re on the road, it’s easy to plug in along the way—at any public station or with the Tesla charging network. We currently have over 35,000 Superchargers worldwide.
+ <span class="dots"> ...</span> with six new locations opening every week<span class="moreText"> .</span></p>
+<button class="read-more-btn">Read More </button>
+
+
+
+
+
+        </div>
+
+    </div>
+
+</section>
+<script>
+const readMoreBtn = document.querySelector(".read-more-btn");
+const text = document.querySelector(".text");
+
+readMoreBtn.addEventListener("click", (e) => {
+  text.classList.toggle("show-more");
+  if (readMoreBtn.innerText === "Read More") {
+    readMoreBtn.innerText = "Read Less";
+  } else {
+    readMoreBtn.innerText = "Read More";
+  }
+});
+</script>
+

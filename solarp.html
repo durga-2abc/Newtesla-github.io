@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complete responsive hospital website design </title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link  rel="stylesheet" href="styleab.css">
+
+</head>
+<body>
+ 
+<section class="SOLAR PANNEL" id="about">
+
+    <h1 class="heading"> <span>solar</span> pannel</h1>
+
+    <div class="row">
+
+       
+        <div class="img-area" >
+            <div><video width="1300" height="320" controls>
+                <source src="p.mp4" type="video/mp4">
+                <source src="movie.ogg" type="video/ogg"></video>
+           <div class="img-text">
+            <div><video width="1300" height="320" controls>
+                <source src="solar-assessment-desktop.mp4" type="video/mp4">
+                <source src="movie.ogg" type="video/ogg"></video>
+           <div class="img-text">
+        
+        
+
+        <div class="content">
+          <h3></h3>
+<p class="text">Savings
+    Electricity For Less
+    Use solar energy to power your home and reduce your dependence on the grid. Purchase solar at the lowest price of any national provider with Tesla's price match guarantee and take control of your monthly electricity bill. Learn more about your potential savings in our Design Studio.
+ <span class="dots"> ...</span> From permitting to powering on, we’ll take care of everything. After you order, we’ll gather remote aerial imagery of your home, design your system, take care of any necessary permits and schedule your installation. Chat with an energy advisor to ask any questions about going solar with Tesla.k<span class="moreText"> .</span></p>
+<button class="read-more-btn">Read More </button>
+
+
+
+
+
+        </div>
+
+    </div>
+
+</section>
+<script>
+const readMoreBtn = document.querySelector(".read-more-btn");
+const text = document.querySelector(".text");
+
+readMoreBtn.addEventListener("click", (e) => {
+  text.classList.toggle("show-more");
+  if (readMoreBtn.innerText === "Read More") {
+    readMoreBtn.innerText = "Read Less";
+  } else {
+    readMoreBtn.innerText = "Read More";
+  }
+});
+</script>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complete responsive hospital website design </title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link  rel="stylesheet" href="styleab.css">
+
+</head>
+<body>
+ 
+<section class="solar roof" id="about">
+
+    <h1 class="heading"> <span>MODEL</span> X</h1>
+
+    <div class="row">
+
+       
+        <div class="img-area" >
+            <img src="solarr.jpg" width="600" height="400"></a>
+            
+             
+        
+
+        <div class="content">
+          
+<p class="text">Install Solar Roof and power your home with a fully integrated solar and energy storage system. The glass solar tiles and steel roofing tiles look great up close and from the street, complementing your home’s natural styling. Chat with an Energy Advisor to ask any questions about installing solar with Tesla.
+ <span class="dots"> ...</span> Powerwall is a compact home battery that is bundled with Solar Roof, providing you with 24/7 energy security. It stores the energy you produce with Solar Roof so you can power your home anytime—at night or during an outage.<span class="moreText"> .</span></p>
+<button class="read-more-btn">Read More </button>
+
+
+
+
+
+        </div>
+
+    </div>
+
+</section>
+<script>
+const readMoreBtn = document.querySelector(".read-more-btn");
+const text = document.querySelector(".text");
+
+readMoreBtn.addEventListener("click", (e) => {
+  text.classList.toggle("show-more");
+  if (readMoreBtn.innerText === "Read More") {
+    readMoreBtn.innerText = "Read Less";
+  } else {
+    readMoreBtn.innerText = "Read More";
+  }
+});
+</script>
